@@ -58,9 +58,9 @@ class DataServices {
 
     }
 
-    class func getRecipes(completion: @escaping (RecipeModel?, Error?) -> Void) {
+    class func getRecipes(q:String,completion: @escaping (RecipeModel?, Error?) -> Void) {
 
-        let _ = taskForGetRequest(EndPoints.search("recipes").url, response: RecipeModel.self) { (response, error) in
+        let _ = taskForGetRequest(EndPoints.search(q).url, response: RecipeModel.self) { (response, error) in
 
             guard let response = response else {
                 print(debuggingTag, "couldnt get response: \(String(describing: error?.localizedDescription))")

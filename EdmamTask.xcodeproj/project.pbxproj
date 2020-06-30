@@ -19,6 +19,8 @@
 		6F14393124AB855700E0B40E /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F14393024AB855700E0B40E /* Enums.swift */; };
 		6FA96A9B24AB868700B2613C /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA96A9A24AB868700B2613C /* DataServices.swift */; };
 		6FA96A9D24AB8C1500B2613C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA96A9C24AB8C1500B2613C /* Constants.swift */; };
+		6FDD64D924ABF2E6007F298B /* IngradientsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDD64D824ABF2E6007F298B /* IngradientsTableViewCell.swift */; };
+		6FDD64DF24ABF3E8007F298B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDD64DE24ABF3E8007F298B /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		6F14393024AB855700E0B40E /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		6FA96A9A24AB868700B2613C /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
 		6FA96A9C24AB8C1500B2613C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6FDD64D824ABF2E6007F298B /* IngradientsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngradientsTableViewCell.swift; sourceTree = "<group>"; };
+		6FDD64DE24ABF3E8007F298B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				6F14391624AB7C0100E0B40E /* ReciepsViewController.swift */,
+				6FDD64DE24ABF3E8007F298B /* DetailsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				6F14392C24AB80B600E0B40E /* ReciepsCollectionViewCell.swift */,
+				6FDD64D824ABF2E6007F298B /* IngradientsTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -271,6 +277,8 @@
 			files = (
 				6F14392D24AB80B600E0B40E /* ReciepsCollectionViewCell.swift in Sources */,
 				6FA96A9B24AB868700B2613C /* DataServices.swift in Sources */,
+				6FDD64D924ABF2E6007F298B /* IngradientsTableViewCell.swift in Sources */,
+				6FDD64DF24ABF3E8007F298B /* DetailsViewController.swift in Sources */,
 				6F14391724AB7C0100E0B40E /* ReciepsViewController.swift in Sources */,
 				6F14391324AB7C0100E0B40E /* AppDelegate.swift in Sources */,
 				6F14392F24AB82CA00E0B40E /* RecipeModel.swift in Sources */,
